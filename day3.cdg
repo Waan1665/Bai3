@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="day3">
+  <ClassDiagramComponents>
+    <Class name="Person" package="" visibility="public" xPosition="403.0" yPosition="-4.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="age" type="int" visibility="private"/>
+        <Field name="adress" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="eat" returnType="void" visibility="public"/>
+        <Method name="sleep" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Student" package="" visibility="public" xPosition="171.0" yPosition="199.0">
+      <Fields>
+        <Field name="studentlD" type="long" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Student" returnType="void" visibility="public"/>
+        <Method name="learn" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Student" target="Person"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
